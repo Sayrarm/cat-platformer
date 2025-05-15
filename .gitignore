@@ -3,7 +3,7 @@ node_modules/
 .husky
 .commitlintrc.js
 .eslintignore
-.eslintrc.json
+eslint.config.js
 .prettierignore
 .prettierrc
 .stylelintignore
