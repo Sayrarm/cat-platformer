@@ -1,1 +1,11 @@
 node_modules/
+
+.husky
+.commitlintrc.js
+.eslintignore
+.eslintrc.json
+.prettierignore
+.prettierrc
+.stylelintignore
+.stylelintrc.json
+lint-staged.config.js
