@@ -45,7 +45,7 @@
     ]
   },
   "*.{css,scss}": [
-    "stylelint --fix --allow-empty-input",
+    "stylelint --fix",
     "prettier --write"
   ],
   "*.{json,md,html}": [

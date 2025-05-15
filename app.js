@@ -10,11 +10,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Canvas для игры
   const gameCanvas = document.createElement('canvas');
-  gameCanvas.id = 'gameCanvas';
+  gameCanvas.id = 'game-canvas';
 
   // Стартовый экран
   const startScreen = document.createElement('div');
-  startScreen.id = 'startScreen';
+  startScreen.id = 'start-screen';
 
   const title = document.createElement('h1');
   title.textContent = 'Кот-платформер';
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
   body.appendChild(startScreen);
 
   // Инициализация игры (остальной код остаётся без изменений)
-  const canvas = document.getElementById('gameCanvas');
+  const canvas = document.getElementById('game-canvas');
   const ctx = canvas.getContext('2d');
   const scoreElement = document.getElementById('score');
   const livesElement = document.getElementById('lives');
